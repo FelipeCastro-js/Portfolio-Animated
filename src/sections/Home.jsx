@@ -6,7 +6,15 @@ import Avatar from "/assets/avatar.png";
 import Resume from "/cv/Resume.pdf";
 
 function Home() {
-  const roles = useMemo(() => ["Web Developer", "Software Developer"], []);
+  const roles = useMemo(
+    () => [
+      "Web Developer",
+      "Software Developer",
+      "Developer Mobile",
+      "Tech Enthusiast",
+    ],
+    []
+  );
 
   const [index, setIndex] = useState(0);
   const [subIndex, setSubIndex] = useState(0);
