@@ -34,7 +34,7 @@ function OverlayMenu({ isOpen, onClose }) {
               "Contact",
             ].map((item, index) => (
               <motion.li
-                key={item}
+                key={index}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3 + index * 0.1 }}
