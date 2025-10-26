@@ -1,6 +1,5 @@
 import Custom from "./components/Custom";
 import Navbar from "./components/Navbar";
-import ParticlesBackground from "./components/ParticlesBackground";
 import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
@@ -14,7 +13,7 @@ function App() {
   return (
     <div className="relative gradient text-white">
       <Custom />
-      <ParticlesBackground />
+      {/* <ParticlesBackground /> */}
       <Navbar />
       <Home />
       <About />
